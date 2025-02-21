@@ -68,11 +68,197 @@ For businesses and startups, this platform enables efficient tracking and manage
 
 ```language
 
+git clone https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-.git
+
 ```
 
 
 
-Step 2 : Run Terraform workflow to initialize, validate, plan then apply
+## Step 2 : Run Terraform workflow to initialize, validate, plan then apply
+
+2.1.Lets deploy backend (Lambda, API Gateway, CloudWatch)
+
+
+2.2.In your local terraform visual code environment terminal, to initialize the necessary providers, execute the following command in your environment terminal —
+
+```language
+terraform init
+
+```
+
+
+![image_alt]()
+
+
+Upon completion of the initialization process, a successful prompt will be displayed, as shown below.
+
+
+2.3.Next, let’s ensure that our code does not contain any syntax errors by running the following command —
+
+```language
+terraform validate
+
+```
+
+The command should generate a success message, confirming that it is valid, as demonstrated below.
+
+
+![image_alt]()
+
+
+2.5.Let’s now execute the following command to generate a list of all the modifications that Terraform will apply. —
+
+
+```language
+terraform plan
+
+```
+
+![image_alt]()
+
+The list of changes that Terraform is anticipated to apply to the infrastructure resources should be displayed. The “+” sign indicates what will be added, while the “-” sign indicates what will be removed.
+
+
+2.6.Now, let’s deploy this infrastructure! Execute the following command to apply the changes and deploy the resources.
+
+
+Note — Make sure to type “yes” to agree to the changes after running this command
+
+
+```language
+terraform apply
+
+```
+
+Terraform will initiate the process of applying all the changes to the infrastructure. Kindly wait for a few seconds for the deployment process to complete.
+
+![image_alt]()
+
+
+## Success!
+
+The process should now conclude with a message indicating “Apply complete”, stating the total number of added, modified, and destroyed resources, accompanied by several resources.
+
+![image_alt]()
+
+
+## Step 3: Verify creation of AWS Lambda, Amazon S3 , AWS API Gateway
+
+3.1.In the AWS Management Console, head to the Amazon Lambda dashboard and verify that the aws-cost-fecter function was successfully created
+
+![image_alt]()
+
+## Lets Test our lambda Function 
+
+3.1.1.Test the Lambda function:
+
+Go to AWS Lambda Console → Find `aws-cost-fetcher`
+
+Click Test → Select "`Create new test event`" → Leave it empty → `Run the test`
+
+
+![image_alt]()
+
+
+3.2.In the AWS Management Console, head to the Amazon S3 dashboard and verify that the aws-cost-dashboard Table was successfully created
+
+![image_alt]()
+
+
+3.3.In the AWS Management Console, head to the API Gateway dashboard and verify that the CostDataAPI was successfully created 
+
+
+
+![image_alt]()
+
+
+## lets Test our API Gateway in browser
+
+Note: Before you deploy your API first Enable `CORS` on your `Resource` this will allow your frontend to communicate with the backend.
+
+Paste the API URL into your browser and hit Enter. You should see a JSON response with cost data.
+
+`https://y9dcmyma4f.execute-api.us-east-1.amazonaws.com/prod/cost`
+
+![image_alt]()
+
+
+
+## Step 4: Deploy Frontend (S3 & Hosting)
+
+4.1.Open your AWS CLI Command line up upload the file to your S3 bucket 
+
+Note: On the `script.js` file replace the `const apiUrl = "https://y9dcmyma4f.execute-api.us-east-1.amazonaws.com/prod/cost";`  // Replace with your API Gateway URL
+
+```language
+aws s3 cp index.html s3://tatenda-aws-cost-dashboard/
+
+aws s3 cp script.js s3://tatenda-aws-cost-dashboard/
+
+aws s3 cp style.css s3://tatenda-aws-cost-dashboard/
+```
+
+
+## Step 5: lets test the Dashboard
+
+5.1.Go to the AWS Console → S3
+
+5.2.Find your bucket (`tatenda-aws-cost-dashboard`)
+
+5.3.Go to "Properties" → Scroll down to Static Website Hosting
+
+5.4.Find the "Bucket Website Endpoint", which looks like:
+
+```language
+http://tatenda-aws-cost-dashboard.s3-website-us-east-1.amazonaws.com
+
+```
+
+5.5.Open the S3 Bucket URL in your browser.
+
+You should be able to dashboard web page 
+
+![image_alt]()
+
+
+
+5.6.Click Load Cost Data and verify API responses.
+
+You should be able to see the results on the dashboard 
+
+![image_alt]()
+
+
+## Future Enhancements
+
+1.We are going to create metric alarm that will trigger SNS whenever a certain resource has exceeds above the threshold.
+
+2.Multi-Account Support – Track costs across multiple AWS accounts.
+
+
+## Congratulations
+
+We have successfully created "AWS Cloud Cost Optimization and Inssights Platform" helps businesses track AWS spending in real-time, receive alerts for unusual activity, and optimize cloud resources effectively. With this solution, companies can reduce costs, prevent unexpected billing issues, and make data-driven cloud decisions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
