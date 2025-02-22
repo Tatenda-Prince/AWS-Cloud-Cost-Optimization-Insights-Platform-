@@ -132,7 +132,7 @@ terraform apply
 
 Terraform will initiate the process of applying all the changes to the infrastructure. Kindly wait for a few seconds for the deployment process to complete.
 
-![image_alt](https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-/blob/71d5d28b3e0961b5a06b16d632d8c0243bdda6ab/img/Screenshot%202025-02-22%20133541.png)
+![image_alt](https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-/blob/9131c7fbe5b99213ecf0bbbb1b8a5139abeeb288/img/Screenshot%202025-02-22%20133829.png)
 
 
 ## Success!
