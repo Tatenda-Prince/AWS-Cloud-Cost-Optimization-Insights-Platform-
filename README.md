@@ -201,7 +201,7 @@ aws s3 cp script.js s3://tatenda-aws-cost-dashboard/
 aws s3 cp style.css s3://tatenda-aws-cost-dashboard/
 ```
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-/blob/f2860572b264b37f5d22925201739ce6c2a8fbdd/img/Screenshot%202025-02-22%20141009.png)
 
 
 
