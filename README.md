@@ -236,6 +236,11 @@ You should be able to see the results on the dashboard
 ![image_alt]()
 
 
+5.7.Now head to the AWS Management Console and navigate to the Cloudwatch and check your logs
+
+![image_alt]()
+
+
 ## Future Enhancements
 
 1.We are going to create metric alarm that will trigger SNS whenever a certain resource has exceeds above the threshold.
