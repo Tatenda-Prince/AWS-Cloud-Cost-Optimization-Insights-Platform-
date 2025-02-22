@@ -139,7 +139,7 @@ Terraform will initiate the process of applying all the changes to the infrastru
 
 The process should now conclude with a message indicating “Apply complete”, stating the total number of added, modified, and destroyed resources, accompanied by several resources.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-/blob/068d8f3ecdcbcac54632c6e3f69cae31111752b1/img/Screenshot%202025-02-22%20134159.png)
 
 
 ## Step 3: Verify creation of AWS Lambda, Amazon S3 , AWS API Gateway
