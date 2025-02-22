@@ -114,7 +114,7 @@ terraform plan
 
 ```
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-/blob/00aa0ea8d99204a6e4eac8d8cb30dea5f9f78483/img/Screenshot%202025-02-22%20133541.png)
 
 The list of changes that Terraform is anticipated to apply to the infrastructure resources should be displayed. The “+” sign indicates what will be added, while the “-” sign indicates what will be removed.
 
