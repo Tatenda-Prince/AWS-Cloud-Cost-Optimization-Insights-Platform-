@@ -238,7 +238,7 @@ You should be able to see the results on the dashboard
 
 5.7.Now head to the AWS Management Console and navigate to the Cloudwatch and check your logs
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-/blob/b844f1367682b0c4a8e0c9b6e9af427ac38fd7ec/img/Screenshot%202025-02-22%20141607.png)
 
 
 ## Future Enhancements
