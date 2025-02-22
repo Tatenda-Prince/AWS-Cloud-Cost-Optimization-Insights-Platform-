@@ -192,6 +192,7 @@ Paste the API URL into your browser and hit Enter. You should see a JSON respons
 
 Note: On the `script.js` file replace the `const apiUrl = "https://y9dcmyma4f.execute-api.us-east-1.amazonaws.com/prod/cost";`  // Replace with your API Gateway URL
 
+
 ```language
 aws s3 cp index.html s3://tatenda-aws-cost-dashboard/
 
@@ -199,6 +200,10 @@ aws s3 cp script.js s3://tatenda-aws-cost-dashboard/
 
 aws s3 cp style.css s3://tatenda-aws-cost-dashboard/
 ```
+
+![image_alt]()
+
+
 
 
 ## Step 5: lets test the Dashboard
