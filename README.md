@@ -225,7 +225,7 @@ http://tatenda-aws-cost-dashboard.s3-website-us-east-1.amazonaws.com
 
 You should be able to dashboard web page 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-/blob/e110586c1b1d6f624cd9b93a6d8f38b2fa5faf55/img/Screenshot%202025-02-22%20141733.png)
 
 
 
