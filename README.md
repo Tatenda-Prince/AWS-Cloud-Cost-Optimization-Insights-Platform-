@@ -169,7 +169,7 @@ Click Test → Select "`Create new test event`" → Leave it empty → `Run the 
 
 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-/blob/92f356d4cda9dc6f5902f4d6a4ccf464949ccdbe/img/Screenshot%202025-02-21%20203732.png)
 
 
 ## lets Test our API Gateway in browser
