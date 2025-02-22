@@ -178,9 +178,11 @@ Note: Before you deploy your API first Enable `CORS` on your `Resource` this wil
 
 Paste the API URL into your browser and hit Enter. You should see a JSON response with cost data.
 
+
 `https://y9dcmyma4f.execute-api.us-east-1.amazonaws.com/prod/cost`
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-/blob/de60d2cee16d4b92d064bbb88b3271c15049416a/img/Screenshot%202025-02-22%20135949.png)
+
 
 
 
