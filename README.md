@@ -146,7 +146,7 @@ The process should now conclude with a message indicating “Apply complete”, 
 
 3.1.In the AWS Management Console, head to the Amazon Lambda dashboard and verify that the aws-cost-fecter function was successfully created
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-/blob/4b192b78659e5dbd5b445964f871af768706fb41/img/Screenshot%202025-02-21%20202937.png)
 
 ## Lets Test our lambda Function 
 
