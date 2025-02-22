@@ -156,8 +156,8 @@ Go to AWS Lambda Console → Find `aws-cost-fetcher`
 
 Click Test → Select "`Create new test event`" → Leave it empty → `Run the test`
 
+![image_alt](https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-/blob/ceb6545e868136bd6e40b411af0960dc68c3ac11/img/Screenshot%202025-02-22%20135711.png)
 
-![image_alt]()
 
 
 3.2.In the AWS Management Console, head to the Amazon S3 dashboard and verify that the aws-cost-dashboard Table was successfully created
