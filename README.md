@@ -4,7 +4,7 @@
 
 ## Technical Architecture
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-/blob/4272b81217e94f98d8c3e48fc49052395836e6bf/img/Screenshot%202025-02-22%20132701.png)
 
 ## Project Overview
 
