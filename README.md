@@ -87,7 +87,7 @@ terraform init
 ```
 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-/blob/b58b0c1ce2bcd99850bd9916db51ccc98c26b116/img/Screenshot%202025-02-22%20133239.png)
 
 
 Upon completion of the initialization process, a successful prompt will be displayed, as shown below.
