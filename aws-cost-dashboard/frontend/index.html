@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Cost Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>AWS Cost Dashboard</h1>
+    <button onclick="fetchCostData()">Load Cost Data</button>
+
+    <div id="cost-summary">
+        <h2>Total Cost: <span id="total-cost">-</span> USD</h2>
+        <h3>Service Breakdown:</h3>
+        <ul id="service-costs"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
