@@ -103,7 +103,7 @@ terraform validate
 The command should generate a success message, confirming that it is valid, as demonstrated below.
 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-/blob/a3182760e2204ac72fcf2fa7fc84ea62839f72b9/img/Screenshot%202025-02-22%20133358.png)
 
 
 2.5.Let’s now execute the following command to generate a list of all the modifications that Terraform will apply. —
