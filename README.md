@@ -154,7 +154,7 @@ Click Test → Select "`Create new test event`" → Leave it empty → `Run the 
 
 
 
-3.2.In the AWS Management Console, head to the Amazon S3 dashboard and verify that the aws-cost-dashboard Table was successfully created
+3.2.In the AWS Management Console, head to the Amazon S3 dashboard and verify that the aws-cost-dashboard bucket was successfully created
 
 ![image_alt](https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-/blob/940c9f7f73d623be919d6c10fcff3c10caf1596b/img/Screenshot%202025-02-21%20202947.png)
 
