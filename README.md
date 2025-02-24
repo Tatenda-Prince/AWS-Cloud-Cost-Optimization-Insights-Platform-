@@ -83,21 +83,17 @@ git clone https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights
 
 ```language
 terraform init
-
 ```
 
+Upon completion of the initialization process, a successful prompt will be displayed, as shown below.
 
 ![image_alt](https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-/blob/b58b0c1ce2bcd99850bd9916db51ccc98c26b116/img/Screenshot%202025-02-22%20133239.png)
-
-
-Upon completion of the initialization process, a successful prompt will be displayed, as shown below.
 
 
 2.3.Next, let’s ensure that our code does not contain any syntax errors by running the following command —
 
 ```language
 terraform validate
-
 ```
 
 The command should generate a success message, confirming that it is valid, as demonstrated below.
@@ -111,7 +107,6 @@ The command should generate a success message, confirming that it is valid, as d
 
 ```language
 terraform plan
-
 ```
 
 ![image_alt](https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-/blob/00aa0ea8d99204a6e4eac8d8cb30dea5f9f78483/img/Screenshot%202025-02-22%20133541.png)
@@ -127,7 +122,6 @@ Note — Make sure to type “yes” to agree to the changes after running this 
 
 ```language
 terraform apply
-
 ```
 
 Terraform will initiate the process of applying all the changes to the infrastructure. Kindly wait for a few seconds for the deployment process to complete.
