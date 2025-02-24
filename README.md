@@ -102,7 +102,7 @@ The command should generate a success message, confirming that it is valid, as d
 ![image_alt](https://github.com/Tatenda-Prince/AWS-Cloud-Cost-Optimization-Insights-Platform-/blob/a3182760e2204ac72fcf2fa7fc84ea62839f72b9/img/Screenshot%202025-02-22%20133358.png)
 
 
-2.5.Let’s now execute the following command to generate a list of all the modifications that Terraform will apply. —
+2.4.Let’s now execute the following command to generate a list of all the modifications that Terraform will apply. —
 
 
 ```language
@@ -114,7 +114,7 @@ terraform plan
 The list of changes that Terraform is anticipated to apply to the infrastructure resources should be displayed. The “+” sign indicates what will be added, while the “-” sign indicates what will be removed.
 
 
-2.6.Now, let’s deploy this infrastructure! Execute the following command to apply the changes and deploy the resources.
+2.5.Now, let’s deploy this infrastructure! Execute the following command to apply the changes and deploy the resources.
 
 
 Note — Make sure to type “yes” to agree to the changes after running this command
